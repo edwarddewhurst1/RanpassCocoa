@@ -41,12 +41,12 @@
     [mygen release];
 }
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-	// Insert code here to initialize your application 
-}
+//- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+//	// Insert code here to initialize your application 
+//}
 
 // Quit the app when the main window is closed
--(BOOL) applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)app {
+-(BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)app {
     return YES;
 }
 
