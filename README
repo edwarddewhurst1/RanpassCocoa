@@ -1,8 +1,10 @@
 GUI Random(ish) password generator.
 
-Generates a 12 character (soon to n character as defined by the user) password.
+Generates a random string (password is too king of a description now that I think about it) of user specified length.
 
-This project is a work in progress and will most likely improve along with the quality of my Objective-C and Cocoa skills. (Incidentally, the improvement of said skills is exactly why I started this project).
+I am creating this app in order to familiarize myself with Objective-C and Cocoa, as such it isn't intended to actually have an end product that other people will find useful.
+
+This project is a work in progress and will most likely improve along with the quality of my Objective-C and Cocoa skills.
 
 All code in this project is released under the GPL. (See COPYING)
 
