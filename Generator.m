@@ -25,14 +25,14 @@
 
 @implementation Generator
 
-- (NSMutableString *)gen {
+- (NSMutableString *)gen:(NSInteger)len {
     NSString *characters = @"abcdefghijklmnopqrstuvwxyz0123456789";
     NSMutableString *returnString = [NSMutableString
-                                     stringWithCapacity:12];
+                                     stringWithCapacity:len];
     int i;
     NSUInteger index;
     
-    for (i = 0; i < 12; i++) {
+    for (i = 0; i < len; i++) {
         index = rand() % 36;
         NSString *c = [NSString stringWithFormat:@"%C",
                        [characters characterAtIndex:index]];

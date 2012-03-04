@@ -30,13 +30,15 @@
 
 @synthesize label;
 
+@synthesize length;
+
 - (IBAction)buttonPressed:(id)sender {
     Generator *mygen;
 
     mygen = [Generator alloc];
     mygen = [mygen init];
     
-    NSMutableString *labelText = [mygen gen];
+    NSMutableString *labelText = [mygen gen:[length integerValue]];
     [label setStringValue:labelText];
     [mygen release];
 }

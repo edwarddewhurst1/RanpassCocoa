@@ -25,6 +25,6 @@
 
 @interface Generator : NSObject
 
-- (NSMutableString *)gen;
+- (NSMutableString *)gen:(NSInteger)len;
 
 @end

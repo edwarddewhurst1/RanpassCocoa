@@ -26,11 +26,14 @@
 @interface RanpassAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;
     NSTextField *label;
+    NSTextField *length;
 }
 
 @property (assign) IBOutlet NSWindow *window;
 
 @property IBOutlet NSTextField *label;
+
+@property IBOutlet NSTextField *length;
 
 - (IBAction)buttonPressed:(id)sender;
 
