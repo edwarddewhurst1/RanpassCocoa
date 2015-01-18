@@ -1,6 +1,6 @@
 GUI Random(ish) password generator.
 
-Generates a random string (password is too king of a description now that I 
+Generates a random string (password is too kind of a description now that I 
 think about it) of user specified length.
 
 I am creating this app in order to familiarize myself with Objective-C and 
